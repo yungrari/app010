@@ -42,7 +42,12 @@ export default function Home() {
 
       <main className={styles.wrapper} {...handleSwipe}>
         <div className={styles.logo}>
-          <Image src="/bccn-logo.svg" alt="BCCN" width={200} height={129} />
+          <Image
+            src="/ebrains-logo.svg"
+            alt="ebrains"
+            width={160}
+            height={54}
+          />
         </div>
 
         <div
