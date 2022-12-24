@@ -5,7 +5,6 @@
   bottom: 0;
   left: 0;
   z-index: 0;
-  cursor: grabbing;
 }
 
 .logo {
@@ -13,6 +12,35 @@
   top: 8px;
   left: 8px;
   z-index: 0;
+}
+
+.about {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 2;
+}
+
+.about button {
+  background: none;
+  border: none;
+  font-family: var(--font-mono);
+}
+
+.aboutContent {
+  max-width: var(--max-width);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  padding: 2rem 1rem 1.4rem;
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+  background: linear-gradient(
+    to bottom,
+    rgba(var(--background-start-rgb), 0.6),
+    rgba(var(--callout-rgb), 0.5)
+  );
+  background-clip: padding-box;
+  backdrop-filter: blur(24px);
 }
 
 .scene {
