@@ -78,7 +78,13 @@ export default function Home() {
                   }vw)`,
                 }}
               >
-                <Image src={value.src} alt={value.id} draggable="false" fill />
+                <Image
+                  src={value.src}
+                  alt={value.id}
+                  priority={index === 0}
+                  draggable="false"
+                  fill
+                />
               </div>
             ))}
           </div>
