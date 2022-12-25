@@ -1,9 +1,9 @@
 import { useState, useCallback } from 'react'
 import { useSwipeable } from 'react-swipeable'
+import ReactClearModal from 'react-clear-modal'
 import Head from 'next/head'
 import Image from 'next/image'
 
-import ReactClearModal from '../components/ReactClearModal'
 import MEG from '../assets/MEG.png'
 import DieUnscreen from '../assets/die-unscreen(1).gif'
 import HDC2 from '../assets/HDC2.png'
